@@ -83,13 +83,13 @@ export default function Navbar() {
                   </DropdownMenuItem>
                 </Link>
               ))}
-              <Link href="/login">
-                <DropdownMenuSeparator className="bg-[#212222]" />
-                <DropdownMenuItem className="flex w-full items-center justify-between">
-                  <p className="text-sm">Login</p>
-                  <LogIn className="h-4 w-4" />
-                </DropdownMenuItem>
-              </Link>
+              {/* <Link href="/login"> */}
+              <DropdownMenuSeparator className="bg-[#212222]" />
+              <DropdownMenuItem className="flex w-full items-center justify-between">
+                <p className="text-sm">Login</p>
+                <LogIn className="h-4 w-4" />
+              </DropdownMenuItem>
+              {/* </Link> */}
             </DropdownMenuContent>
           </DropdownMenu>
         </div>
